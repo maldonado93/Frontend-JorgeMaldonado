@@ -12,9 +12,9 @@ export class BoccComponent implements OnInit {
   constructor(private BoccService: BoccService) { }
   clientes: BoccModule[];
   ngOnInit(): void {
-    this.BoccService.getClientes().subscribe(
-      clientes => this.clientes = clientes
-    )
+    // this.BoccService.getClientes().subscribe(
+    //   clientes => this.clientes = clientes
+    // )
   }
   
 
