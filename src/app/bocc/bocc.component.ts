@@ -16,7 +16,6 @@ export class BoccComponent implements OnInit {
     //   clientes => this.clientes = clientes
     // )
   }
-  
-  
+    
 
 }
